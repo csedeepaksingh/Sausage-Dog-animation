@@ -1,3 +1,8 @@
+echo '.env' >> .gitignore
+git rm -r --cached .env
+git add .gitignore
+git commit -m 'untracking .env'
+git push origin master
 # SVG
 
 SVG defines vector-based graphics in XML format.
